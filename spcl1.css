@@ -150,6 +150,15 @@
     top: 45vh;
     left: 85vw;
 }
+.b:hover{
+    color: aliceblue;
+}
+.c:hover{
+    color: aliceblue;
+}
+.a:hover{
+    color: aliceblue    ;
+}
 body{
     margin: 0;
     padding: 0;
