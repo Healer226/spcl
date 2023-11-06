@@ -1,0 +1,162 @@
+#div1{
+    margin: 0;
+    padding: 0;
+}
+.a{
+    margin: 10px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    padding: 4px;
+    text-decoration: none;
+    color: #003249;
+    font-size:x-large;
+    font-family: 'Poppins', sans-serif;
+    
+    border-radius: 5px;
+}
+.b{
+    margin: 10px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    padding: 4px;
+    text-decoration: none;
+    color: #003249;
+    font-size:x-large;
+    font-family: 'Poppins', sans-serif;
+   
+    border-radius: 5px;
+
+}
+.c{
+    margin: 10px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    padding: 4px;
+    text-decoration: none;
+    color: #003249;
+    font-size:x-large;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    border-radius: 5px;
+    z-index: 2;
+}
+#a1{
+    margin-top: 10px;
+}
+#ul1{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+    justify-content: space-between;
+    height: 100vh;
+    width: 40vw;
+    z-index: 10;
+    margin: 0;
+    padding: 0;
+    
+}
+#div2{
+    display: flex;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+
+    justify-content: space-between;
+    align-content: stretch;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: baseline;
+}
+#div3{
+    display: flex;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+
+}
+#div4{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+}
+
+
+/* #ul2{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    flex-direction: column;
+    position: absolute;
+    height:100vh ;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: flex-end;
+    z-index: 9;
+    
+
+} */
+#ul3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    height: 100vh;
+    width:100vw;
+    margin: 0;
+    padding: 0;
+}
+#ul4{
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    position: absolute;
+    height: 100vh;
+    width:100vw;
+    margin: 0;
+    padding: 0;
+}
+#ul5{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    height: 100vh;
+    width:100vw;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+#c1{
+    position: absolute;
+    top: 80vh;
+    left: 85vw;
+    
+}
+#c2{
+    position: absolute;
+    top: 0vh;
+    left: 85vw;
+}
+#c3{
+    position: absolute;
+    top: 45vh;
+    left: 85vw;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("material/blueblue-transformed.jpeg");
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

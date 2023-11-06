@@ -1,0 +1,49 @@
+#div1{
+    margin: 0;
+    padding: 0;
+    /* position: relative; */
+}
+#div2{
+    font-size: 60px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    /* border: 2PX solid black; */
+    position: absolute;
+    z-index: 1;
+    text-decoration: none;
+    list-style: none;
+    
+}
+#video{
+    position: fixed;
+    height: 100%;
+    width: 100%;    
+    object-fit: cover;
+}
+#button{
+    position:absolute;
+    top: 55%;
+    background: transparent;
+    height: 60px;
+    width: 270px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    border: 2px solid blue;
+    border-radius: 10px;
+    border-style:hidden;
+}
+#button:hover    {
+    color:darkviolet    ;
+
+    cursor: pointer;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
